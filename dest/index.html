@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>test</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <style>
+  body {
+    padding-top: 50px;
+  }
+  .mainpanel {
+    padding: 40px 15px;
+  }
+  .logpanel {
+    width: 100%;
+  }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <div class="navbar-brand">Benchmark Program</div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mainpanel">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <form>
+            <div class="radio">
+              <label>
+                <input type="radio" name="uselz4" id="uselz4" value="yes" checked>Use LZ4
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="uselz4" id="notuselz4" value="no">Not LZ4
+              </label>
+            </div>
+            <a href="#" class="btn btn-default" onclick="clicked()">Submit</a>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8" id="log">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/knockout/knockout-3.1.0.js"></script>
+  <script src="./src/sample-client.js"></script>
+  <script src="./src/main.js"></script>
+  </body>
+</html>
