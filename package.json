@@ -16,9 +16,9 @@
     "web",
     "webworker"
   ],
-  "homepage": "https://github.com/shibukawa.yoshiki/lz4-xhr.jsx",
+  "homepage": "https://github.com/shibukawa/lz4-xhr.jsx",
   "bugs": {
-    "url": "https://github.com/shibukawa.yoshiki/lz4-xhr.jsx/issues"
+    "url": "https://github.com/shibukawa/lz4-xhr.jsx/issues"
   },
   "directories": {
     "doc": "./doc",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/shibukawa.yoshiki/lz4-xhr.jsx.git"
+    "url": "git://github.com/shibukawa/lz4-xhr.jsx.git"
   },
   "devDependencies": {
     "grunt-contrib-watch": "~0.5.3",
